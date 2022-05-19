@@ -2,5 +2,118 @@ html {
     scroll-behavior: smooth;
     font-family: 'Raleway', sans-serif;
 }
-  
-  
+
+/* Réinitialisation des marge interne / externe pour tous les éléments  */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start:0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+body{
+    width: 95%;
+    margin: auto;
+}
+
+/* Mise en forme de mon header */
+header{
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mise en fome du logo de booki */
+.logo{
+    width: 50%;
+}
+
+header div img {
+    width: 60%;
+}
+
+/* Mise en forme du menu de navigation */
+header nav {
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 36px 30px 0px 30px;
+}
+
+header nav ul li a:hover{
+    color: blue;
+    border-top: solid 5px blue;
+}
+
+body h2 {
+    display:flex;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+body p {
+    display:flex;
+    padding-left: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Barre_de_recherche{
+    display: flex;
+    width: auto;
+    height: 20%;
+    
+    
+    
+    
+}
+
+#Icone_lieu{
+    display: flex;
+    width: 5%;
+    border:solid 1px;
+    border-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;
+    background-color: #f2f2f2 ;
+    padding: 0;
+
+    
+}
+
+#lieu{
+    
+    border:solid 1px;
+    border-color: #f2f2f2;
+    padding: 0;
+    font-weight: bold;
+
+    
+}
+
+#Recherche{
+    border:hidden;
+    border-radius: 0 10px 10px 0;
+    background-color: #0065fc;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    color: white;
+}
