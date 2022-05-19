@@ -79,41 +79,56 @@ body p {
 #Barre_de_recherche{
     display: flex;
     width: auto;
-    height: 20%;
+    height: 50px;
+    width: 450px;
     
-    
-    
-    
+
+      
 }
+
 
 #Icone_lieu{
     display: flex;
-    width: 5%;
     border:solid 1px;
     border-color: #f2f2f2;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
     background-color: #f2f2f2 ;
-    padding: 0;
-
+    height: 50px;
+    width: 50px;
     
 }
 
-#lieu{
+
+
+#Icone_lieu img{
+    
+    height: 50%;
+    margin: auto;   
+}
+
+#Lieu{
     
     border:solid 1px;
     border-color: #f2f2f2;
-    padding: 0;
     font-weight: bold;
-
-    
+    padding-left: 10px;
+    width: 200px;
+    height: 50px;   
 }
+
+#Lieu p{
+    padding-top: 15px;
+}
+
 
 #Recherche{
     border:hidden;
     border-radius: 0 10px 10px 0;
     background-color: #0065fc;
     font-weight: bold;
-    text-align: center;
-    padding: 0;
-    color: white;
+    color: white;   
+}
+
+#Recherche p{
+    padding: 15px;
 }
