@@ -81,9 +81,7 @@ body p {
     width: auto;
     height: 50px;
     width: 450px;
-    
-
-      
+    margin-top: 20px;     
 }
 
 
@@ -94,14 +92,12 @@ body p {
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2 ;
     height: 50px;
-    width: 50px;
-    
+    width: 50px;   
 }
 
 
 
 #Icone_lieu img{
-    
     height: 50%;
     margin: auto;   
 }
@@ -112,7 +108,7 @@ body p {
     border-color: #f2f2f2;
     font-weight: bold;
     padding-left: 10px;
-    width: 200px;
+    width: 220px;
     height: 50px;   
 }
 
@@ -131,4 +127,30 @@ body p {
 
 #Recherche p{
     padding: 15px;
+}
+
+
+#Filtres{
+    height: 60px;
+    width: 850px;
+    margin-top: 25px;
+    display: flex;
+    font-weight: bold;
+    
+}
+
+#Filtres span{
+    width: 200px;
+    height: 40px;
+    border: solid;
+    border-color: #d9d9d9;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+#Filtres img{
+    height: 70%;
+    border:hidden;
+    background-color:#deebff ;
+    border-radius: 50%;
 }
